@@ -37,7 +37,7 @@ pkg install -y git nano mariadb
 clear
 echo -e "$logo"
 sleep 1
-echo "Cài đặt và cập nhật hoàn tất."
+echo ${purple}"Cài đặt và cập nhật hoàn tất."
 sleep 3
 
 # Giao diện
