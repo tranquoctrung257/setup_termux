@@ -33,14 +33,14 @@ pkg update -y && pkg upgrade -y
 
 # Cài đặt các ứng dụng cần thiết
 pkg install -y git nano mariadb
+mysqld -u root &
 
 clear
 echo -e "$logo"
-sleep 1
 echo "Cài đặt và cập nhật hoàn tất."
 sleep 3
 
 # Giao diện
-cd /sdcard && mkdir theme_termux && cd theme_termux 
-git clone https://github.com/Sohil876/Termux-zsh.git && cd Termux-zsh
-bash setup.sh
+# cd /sdcard && mkdir theme_termux && cd theme_termux 
+# git clone https://github.com/Sohil876/Termux-zsh.git && cd Termux-zsh
+# bash setup.sh
