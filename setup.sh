@@ -38,7 +38,8 @@ mysqld -u root &
 clear
 echo -e "$logo"
 echo "Cài đặt và cập nhật hoàn tất."
-sleep 3
+echo "lệnh chạy mysql { mysql -u root -p }."
+
 
 # Giao diện
 # cd /sdcard && mkdir theme_termux && cd theme_termux 
