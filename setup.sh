@@ -10,7 +10,7 @@ pkg update -y && pkg upgrade -y
 pkg install -y git nano mariadb
 
 # Giao diện
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd /sdcard && mkdir theme_termux && cd theme_termux 
 
 # Kết thúc thông báo
 echo "Cài đặt và cập nhật hoàn tất."
