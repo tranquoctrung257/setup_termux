@@ -38,7 +38,7 @@ pkg install -y git nano mariadb
 clear
 echo -e "$logo"
 echo "Cài đặt và cập nhật hoàn tất."
-echo "lệnh chạy start service sql server { mysqld -u root & }."
+echo "lệnh chạy start service sql server { mysqld_safe }."
 echo "lệnh chạy mysql { mysql -u root -p; }."
 
 
