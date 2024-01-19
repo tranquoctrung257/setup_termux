@@ -33,11 +33,12 @@ pkg update -y && pkg upgrade -y
 
 # Cài đặt các ứng dụng cần thiết
 pkg install -y git nano mariadb
-mysqld -u root &
+# mysqld -u root &
 
 clear
 echo -e "$logo"
 echo "Cài đặt và cập nhật hoàn tất."
+echo "lệnh chạy start service sql server { mysqld -u root & }."
 echo "lệnh chạy mysql { mysql -u root -p }."
 
 
