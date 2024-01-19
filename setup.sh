@@ -39,7 +39,7 @@ clear
 echo -e "$logo"
 echo "Cài đặt và cập nhật hoàn tất."
 echo "lệnh chạy start service sql server { mysqld -u root & }."
-echo "lệnh chạy mysql { mysql -u root -p }."
+echo "lệnh chạy mysql { mysql -u root -p; }."
 
 
 # Giao diện
